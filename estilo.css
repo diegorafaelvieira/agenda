@@ -1,0 +1,252 @@
+body {
+    background: #4CAF50; /* fundo */
+    font: normal 12pt Arial; /* config texto */   
+    color: black;
+}
+
+header {
+    color: white; /* cor texto*/
+    text-align: center; /* texto centralizado  */
+}
+
+
+section {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    padding: 15px; /* espaço */
+    width: 500px; /* 500PX largura */
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    color: black;  
+}   
+
+#admin {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 95%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#admin table {
+    width: auto;
+}
+
+#buscarAdmin {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 85%; /* largura 79*/
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#adicionarRamal {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 29%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#editarRamal {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 25%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+} 
+
+#ramaisCai {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 26%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#ramaisCai table {
+    width: auto;
+}
+
+#ramaisCaiAdmin {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 35%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#ramaisCaiAdmin table {
+    width: auto;
+}
+
+#ramaisPoa {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 16%; /* largura 16 */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#ramaisPoa table {
+    width: auto;
+}
+
+#ramaisPoaAdmin {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 25%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#ramaisPoaAdmin table {
+    width: auto;
+}
+
+
+#index,#buscar {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 90%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+}
+
+#editar,#login,#adicionar,#adicionarAdmin,#listarAdmin {
+    background: white; /* fundo */
+    border-radius: 10px; /* bordas redondas*/
+    width: 30%; /* largura */
+    height: auto;
+    margin: auto; /* centralizar na tela */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); /* sombra na parte inferior */
+    text-align: left;
+    color: black;
+} 
+
+
+table { /* Tabela */
+    border-collapse: collapse; /* Borda */
+}
+
+th, td { /* Fonte tabela */
+    font: normal 11pt Arial
+}
+
+th { /* Cabeçalho tabela */
+    background-color: #4CAF50;
+    font: normal 12pt Arial;
+    color: white;
+    text-align: center;
+}
+
+header { /* Cabeçalho  */
+    color: white;
+    text-align: center; 
+    font-style: italic; /* texto itálico */
+}
+
+footer { /* Rodapé  */
+    color: white;
+    text-align: center; 
+    font-style: italic; /* texto itálico */
+}
+
+input[type=text], input[type=email], input[type=password] { /* Formulários */
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+input[type=button], input[type=submit], input[type=reset] { /* Botões */
+    background-color: rgb(1, 122, 96);
+    border: none;
+    color: white;
+    padding: 8px 11px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+a:link, a:visited { /* Links */
+    background-color:rgb(1, 122, 96);
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active { /* Passando sobre os botões  */
+    background-color: white;
+    color:rgb(1, 122, 96);
+}
+
+
+.input[type=button], input[type=submit]:hover { /* Muda cor mouse sobre Enviar */
+    background-color: rgb(70, 158, 73);
+    color: white;
+    transition-duration: 0.5s;
+  }
+
+.input[type=button], input[type=reset]:hover { /* Muda cor mouse sobre Limpar */
+    background-color: rgb(70, 158, 73);; 
+    color: white;
+    transition-duration: 0.5s;
+  }
+
+
+
+
+/* AQUI BARRA DE CARREGAMENTO PADRÃO YOUTUBE VER JS TAMBÉM */
+/* This is a compiled file, you should be editing the file in the templates directory */
+.pace {   /*VER AQUI*/
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .pace-inactive {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    background:rgb(1, 122, 96);
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 4px;
+  }

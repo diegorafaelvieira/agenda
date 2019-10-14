@@ -18,7 +18,7 @@
 		//EXECUTA
 		$pdo->query($sql);
 
-		header("Location: listarAdmin.php");  //era index.php
+		header("Location: listarAdmin.php");  
 	}
 	//AQUI PREENCHE OS DADOS
 	$sql = "SELECT * FROM usuarios WHERE id = '$id'";
@@ -26,7 +26,7 @@
 	if ($sql->rowCount() > 0) {
 		$dado = $sql->fetch();
 	} else {
-		header("Location:listarAdmin.php");  //era index.php
+		header("Location:listarAdmin.php"); 
 	}
 
 ?>

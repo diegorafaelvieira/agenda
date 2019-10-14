@@ -16,7 +16,7 @@ echo "<h4>ÁREA RESTRITA</h4>";
 		//EXECUTAR
 		$pdo->query($sql);
 
-		header("Location: admin.php");  //ANTES ERA INDEX.PHP
+		header("Location: admin.php");  
 	}
 ?>
 

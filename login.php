@@ -19,7 +19,7 @@
      
             $_SESSION['id'] = $dado['id'];
      
-            header("Location: admin.php"); //antes index.php
+            header("Location: admin.php"); 
         } 
      }
     

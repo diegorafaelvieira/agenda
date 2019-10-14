@@ -12,7 +12,7 @@
 		//EXECUTAR
 		$pdo->query($sql);
 
-		header("Location: admin.php"); //ANTES ERA INDEX.PHP
+		header("Location: admin.php"); 
     }
     
 ?>
@@ -39,7 +39,7 @@
 		<a href="adicionarAdmin.php">Adicionar Admin</a>
 		<a href="listarAdmin.php">Listar Admin</a>
 		<a href="logout.php">Logout</a>
-		<h2>ADICIONAR RAMAL</h2>  <!-- funcionou no Caí/ testar POA-->
+		<h2>ADICIONAR RAMAL</h2> 
 	</header>
 
 	<section id="adicionarRamal">

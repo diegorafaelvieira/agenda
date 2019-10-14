@@ -77,7 +77,6 @@
 	</section>
 
 	<footer>
-
         <p>&copy; Diego Rafael Vieira</p>
     </footer>
 

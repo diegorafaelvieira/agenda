@@ -1,7 +1,7 @@
 <?php
-require_once 'config.php';
+    require_once 'config.php';
 
-echo "<h4>ÁREA RESTRITA</h4>";
+    echo "<h4>ÁREA RESTRITA</h4>";
 ?>
 
 <!DOCTYPE html>

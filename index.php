@@ -35,7 +35,7 @@
 			</tr>
 			
 			<?php
-				$sql = "SELECT * FROM dados ORDER BY nome asc"; //VER ORDEM COM ACENTUAÇÃO    CONVERT(campo USING utf8) ASC
+				$sql = "SELECT * FROM dados ORDER BY nome asc";
 				
 				$sql = $pdo->query($sql);
 					if ($sql->rowCount() > 0) {

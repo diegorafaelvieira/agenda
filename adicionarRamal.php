@@ -45,11 +45,11 @@
 	<section id="adicionarRamal">
 		<form action="adicionarRamal.php" method="POST">
 			Ramal:<br/>
-			<input type="text" name="ramal" size="50" max="50" placeholder="Digite o ramal"/><br/><br/>
+			<input type="text" name="ramal" size="45" max="50" placeholder="Digite o ramal"/><br/><br/>
 			Nome:<br/>
-			<input type="text" name="nome" size="50" max="50" placeholder="Digite o nome"><br/><br/>
+			<input type="text" name="nome" size="45" max="50" placeholder="Digite o nome"><br/><br/>
 			Cidade:<br/>
-			<input type="text" name="cidade" size="50" max="50" placeholder="Digite a cidade"><br/><br/>
+			<input type="text" name="cidade" size="45" max="50" placeholder="Digite a cidade"><br/><br/>
 			<input type="submit" value="Cadastrar" />
 			<input type="reset" value="Limpar" />
 		</form>

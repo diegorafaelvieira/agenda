@@ -47,7 +47,7 @@ echo "<h4>ÁREA RESTRITA</h4>";
 	<section id="adicionar">
 		<form method="POST">
 			Nome:<br/>
-			<input type="text" name="nome" size="45" max="50" placeholder="Digite o nome"/><br/><br/>
+			<input type="text" name="nome" size="50" max="50" placeholder="Digite o nome"/><br/><br/>
 			Telefone 1:<br/>
 			<input type="text" name="telefone1" size="15" max="50" placeholder="(051)999999999" /><br/><br/>
 			Telefone 2:<br/>
@@ -55,9 +55,9 @@ echo "<h4>ÁREA RESTRITA</h4>";
 			Celular:<br/>
 			<input type="text" name="celular" size="15" max="50" placeholder="(051)999999999"/><br/><br/>
 			E-mail:<br/>
-			<input type="text" name="email" size="45" max="50" placeholder="Digite o e-mail"><br/><br/>
+			<input type="text" name="email" size="50" max="50" placeholder="Digite o e-mail"><br/><br/>
 			Skype:<br/>
-			<input type="text" name="skype" size="45" max="50" placeholder="Digite o skype"><br/><br/>
+			<input type="text" name="skype" size="50" max="50" placeholder="Digite o skype"><br/><br/>
 			<input type="submit" value="Cadastrar" />
 			<input type="reset" value="Limpar" />
 

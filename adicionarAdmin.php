@@ -26,6 +26,7 @@ echo "<h4>ÁREA RESTRITA</h4>";
 	<title>Adicionar Admin</title>
 	<link rel="stylesheet" href="estilo.css">
 	<script type="text/javascript" src="pace.min.js"></script>
+	
 </head>
 <body>
 	

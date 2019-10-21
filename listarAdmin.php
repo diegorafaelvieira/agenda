@@ -18,6 +18,7 @@
 	<title>Listar Admin</title>
 	<link rel="stylesheet" href="estilo.css">
 	<script type="text/javascript" src="pace.min.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="../agenda/favicon-16x16.png">
 </head>
 <body>
 	

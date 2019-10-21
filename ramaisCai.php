@@ -34,7 +34,7 @@
 			</tr>
 			
 			<?php
-				$sql = "SELECT * FROM ramais WHERE cidade = 'CAÍ' ORDER BY nome asc"; 
+				$sql = "SELECT * FROM ramais WHERE cidade = 'CAÍ' OR cidade = 'CAI' ORDER BY nome ASC"; 
 				
 				$sql = $pdo->query($sql);
 					if ($sql->rowCount() > 0) {

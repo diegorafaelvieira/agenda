@@ -193,7 +193,7 @@ input[type=button], input[type=submit], input[type=reset] { /* Botões */
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 8px; /* borda links */
+    border-radius: 8px; /* borda Links */
 }
 
 

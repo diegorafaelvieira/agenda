@@ -182,7 +182,7 @@ footer { /* Rodapé  */
 input[type=text], input[type=email], input[type=password] { /* Formulários */
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #4CAF50;
-    border-radius: 5px;
+    border-radius: 5px; /* bordas redondas*/
 }
 
 input[type=button], input[type=submit], input[type=reset] { /* Botões */
@@ -204,7 +204,7 @@ a:link, a:visited { /* Links */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 8px; /* bordas redondas*/
 }
   
 a:hover, a:active { /* Passando sobre os botões  */

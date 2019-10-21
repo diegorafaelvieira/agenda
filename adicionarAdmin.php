@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require_once 'config.php';
 
 echo "<h4>ÁREA RESTRITA</h4>";
@@ -45,11 +45,11 @@ echo "<h4>ÁREA RESTRITA</h4>";
 	<section id="adicionarAdmin">
 		<form action="adicionarAdmin.php" method="POST">
 			Nome:<br/>
-			<input type="text" name="nome" size="45" max="50" placeholder="Digite o nome"/><br/><br/>
+			<input type="text" name="nome" size="50" max="50" placeholder="Digite o nome"/><br/><br/>
 			E-mail:<br/>
-			<input type="email" name="email" size="45" max="50" placeholder="Digite o e-mail"><br/><br/>
+			<input type="email" name="email" size="50" max="50" placeholder="Digite o e-mail"><br/><br/>
 			Senha:<br/>
-			<input type="text" name="senha" size="45" max="50" placeholder="Digite a senha"><br/><br/>
+			<input type="text" name="senha" size="50" max="50" placeholder="Digite a senha"><br/><br/>
 			<input type="submit" value="Cadastrar" />
 			<input type="reset" value="Limpar" />
 		</form>

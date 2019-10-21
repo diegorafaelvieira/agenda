@@ -1,4 +1,4 @@
-<?php
+﻿<?php
      session_start();
      require_once 'config.php';
     
@@ -48,9 +48,9 @@
     <section id="login">
         <form action="login.php" method="POST">
             E-mail:<br/>
-            <input type="email" name="email" size="45" max="50" placeholder="Digite o e-mail"/><br/><br/>
+            <input type="email" name="email" size="50" max="50" placeholder="Digite o e-mail"/><br/><br/>
             Senha:<br/>
-            <input type="password" name="senha" size="45" max="50" placeholder="Digite a senha" /><br/><br/>
+            <input type="password" name="senha" size="50" max="50" placeholder="Digite a senha" /><br/><br/>
             <input type="submit" value="Entrar"  />
             <input type="reset" value="Limpar" />
         </form>
